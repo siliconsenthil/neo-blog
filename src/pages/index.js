@@ -1,24 +1,15 @@
 import * as React from "react"
-
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
+import Layout from "../components/layout"
 
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <Layout>
       <title>Home Page</title>
-      <h1 className="text-6xl tracking-wide text-orange-600	">
-        siliconsenthil.in
+      <h1 className="text-3xl tracking-wide text-orange-600	">
+        Hello
       </h1>
-
-    </main>
-  )
+    </Layout>)
 }
 
 export default IndexPage
