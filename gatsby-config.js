@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-      title: `SiliconSenthil`,
+    title: `SiliconSenthil`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [{
@@ -27,5 +27,7 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+    'gatsby-plugin-postcss',
+  ]
 };
